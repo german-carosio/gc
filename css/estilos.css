@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+    /*Colores*/
+    --color1: #000;
+    --color2: #fff;
+    --color3: #8C52FF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*GENERALES*/
+
+body {
+    font-size: 16px;
+    width: 100vw;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
+p, label, input, button, textarea {
+    font-size: 1em;
+}
+
+a,li {
+    list-style: none;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+/*HEADER*/
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: var(--color2);
+}
+
+.logo {
+    height: 25px;
+}
+
+.menu {
+    display: none;
+}
+
+.menu-icono {
+    border: none;
+    background-color: var(--color2);
+}
+
+.menu-icono i {
+    font-size: 1.5em;
+    color: var(--color1);
+}
+
+
+/*MAIN - GENERAL*/
+
+.main {
+    width: 100%;
+}
+
+.portada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.about, .service, .portfolio, .contacto {
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.about h2, .service h2, .portfolio h2, .contacto h2 {
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--color1);
+    width: 100%;
+}
+
+.section-contenedor {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-contenedor article h3 {
+    padding-bottom: 20px;
+}
+
+.section-contenedor article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*MAIN - Portada*/
+
+.logo2 {
+    margin-top: -60px;
+    width: 70%; 
+}
+
+.portada i {
+    color: var(--color1);
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    font-size: 1.5em;
+}
+
+/*MAIN - About*/
+
+/*MAIN - About - presentacion*/
+
+.about-presentacion .descargar-cv {
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: rgb(128,179,255);
+    width: max-content;
+    cursor: pointer;
+}
+
+.about-presentacion .descargar-cv a {
+    color: var(--color2);
+}
+
+.about-presentacion .descargar-cv a i {
+    padding-right: 4px;
+}
+
+/*MAIN - About - habilidades*/
+
+.about-habilidades_contenedor {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.about-habilidades_iconos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: solid 1px grey;
+    border-radius: 6px;
+    padding: 10px;
+    gap: 5px;
+    margin-bottom: 20px;   
+}
+
+.about-habilidades_iconos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23%;
+}
+
+.about-habilidades_iconos div i {
+    font-size: 2.5em;
+    padding-bottom: 5px;
+}
+
+.about-habilidades_iconos div p {
+   font-size: .8em;
+}
+
+/*MAIN - Service*/
+
+.service-contenido i {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+
+
+/*MAIN - Portfolio*/
+
+.portfolio article {
+    border: solid 1px grey;
+    border-radius: 6px;
+}
+
+.portfolio-img{
+    background-color: grey;
+    height: 30vh;
+}
+
+.portfolio-pie {
+    padding: 15px;
+}
+
+.portfolio-botones {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding:  0 15px  15px 15px;
+}
+
+.portfolio-botones button {
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+    color: var(--color2);
+    background-color: var(--color3);
+    width: max-content;
+    cursor: pointer;
+}
+
+.portfolio-botones i {
+    font-size: 1.8em;
+    cursor: pointer;
+}
+
+
+
+/*MAIN - Contacto*/
+
+.contacto {
+    color: var(--color1);
+}
+
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.contacto form label {
+    padding: 5px 0 5px 0;
+}
+
+.contacto form input {
+    padding: 8px;
+    height: 40px;
+    border: solid 1px var(--color1);
+    border-radius: 6px;
+}
+
+.contacto form textarea {
+    padding: 8px;
+    border: solid 1px var(--color1);
+    border-radius: 6px;
+}
+
+.contacto form button {
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    padding: 8px;
+    color: var(--color2);
+    background-color: var(--color3);
+    cursor: pointer;
+}
+
+.contacto form button i {
+    padding-left: 5px;
+    
+}
+
+/*FOOTER - redes*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.redes {
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.redes i {
+    font-size: 3em;
+}
+
+.redes2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.redes2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+/*MEDIAS*/
+
+@media (min-width: 480px){}
+@media (min-width: 768px){}
+@media (min-width: 1024px){
+    .logo2 {
+        width: 2%;
+    }
+}
+@media (min-width: 1280px){}
+@media (min-width: 1680px){}
