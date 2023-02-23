@@ -57,10 +57,11 @@ a,li {
     left: 0;
     z-index: 100;
     background-color: var(--color2);
+   
 }
 
 .logo {
-    height: 25px;
+    height: 27px;
 }
 
 .menu {
@@ -94,6 +95,7 @@ a,li {
 .about, .service, .portfolio, .contacto {
     padding: 20px 20px;
     margin-bottom: 5px;
+    
 }
 
 .about h2, .service h2, .portfolio h2, .contacto h2 {
@@ -108,6 +110,7 @@ a,li {
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    
 }
 
 .section-contenedor article h3 {
@@ -118,7 +121,8 @@ a,li {
     width: 100%;
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+   
 }
 
 /*MAIN - Portada*/
@@ -137,6 +141,10 @@ a,li {
 }
 
 /*MAIN - About*/
+
+.about article {
+    height: 50vh;
+}
 
 /*MAIN - About - presentacion*/
 
@@ -196,6 +204,10 @@ a,li {
 }
 
 /*MAIN - Service*/
+
+.service article {
+    height: 25vh;
+}
 
 .service-contenido i {
     font-size: 1.5em;
@@ -338,48 +350,54 @@ a,li {
     /*generales*/
 
     .about, .service, .portfolio, .contacto {
-        padding: 30px 50px;
+        padding: 30px 40px;
     }
 
     .section-contenedor {
-        padding: 30px 0;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 50px;
     }
 
+    /*HEADER*/
     .header {
         height: 80px;
     }
 
-    /*portada*/
+    .logo {
+        height: 35px;
+    }
+
+    /*MAIN - Portada*/
 
     .logo2 {
         width: 60%;
     }
 
-    /*about*/
+    /*MAIN - about*/
 
     .about article {
-        width: 45%;
+        height: 25vh;
     }
-
-    /*service*/
-    .service article {
-        width: 45%;
-    }
-
-    /*portfolio*/
-
     
+
+    /*MAIN - service*/
+    
+    .service article {
+        width: 48%;
+        height: 15vh;
+    }
+
+
+    /*MAIN - portfolio*/
+
     .portfolio article {
-        width: 45%;
-        
+        width: 48%;
     }
 
     .portfolio-img {
-        height: 25vh;
+        height: 20vh;
     }
+    
 
 }
 @media (min-width: 1024px){
@@ -391,31 +409,30 @@ a,li {
        
     }
 
-    .section-contenedor {
-        padding: 50px 0;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 60px;
-    }
-
+    
     /*portada*/
 
     .logo2 {
         width: 40%;
     }
 
+    /*service*/
+
+    .about article {
+        width: 40vw;
+        height: 40vh;
+    }
     
     /*service*/
     .service article {
-        width: 28%;
-        
+        width: 30%;
         height: 25vh;
     }
 
     /*portfolio*/
 
     .portfolio article {
-        width: 28%;
+        width: 30%;
         
     }
 
@@ -429,26 +446,22 @@ a,li {
      /*generales*/
     
      .about, .service, .portfolio, .contacto {
-        padding: 40px 300px;
+        padding: 40px 100px;
        
     }
 
-    .section-contenedor {
-        padding: 60px 0;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 60px;
-    }
 
     /*portada*/
     .logo2 {
         width: 30%;
     }
 
+    /*about*/
+    
+
     /*service*/
     .service article {
         width: 25%;
-       
         height: 35vh;
     }
 
