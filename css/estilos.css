@@ -261,6 +261,7 @@ a,li {
 }
 
 
+
 .contacto form {
     display: flex;
     flex-direction: column;
@@ -396,6 +397,12 @@ a,li {
     .portfolio-img {
         height: 20vh;
     }
+
+    /*MAIN - contacto*/
+
+    .contacto form {
+        width: 60%;
+    }
     
 
 }
@@ -441,6 +448,12 @@ a,li {
 
     .portfolio-img {
         height: 25vh;
+    }
+
+    /*MAIN - contacto*/
+
+    .contacto form {
+        width: 40%;
     }
 
 }
@@ -492,5 +505,11 @@ a,li {
 
     .logo2 {
         width: 25%;
+    }
+
+    /*MAIN - contacto*/
+
+    .contacto form {
+        width: 30%;
     }
 }
