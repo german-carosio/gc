@@ -42,6 +42,7 @@ a,li {
     list-style: none;
     text-decoration: none;
     font-size: 1em;
+    color: var(--color1);
 }
 
 /*HEADER*/
@@ -64,8 +65,17 @@ a,li {
     height: 27px;
 }
 
-.menu {
+.nav {
     display: none;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-item {
+    font-size: 1.2em;
 }
 
 .menu-icono {
@@ -362,6 +372,15 @@ a,li {
     /*HEADER*/
     .header {
         height: 80px;
+        padding: 0 30px;
+    }
+
+    .nav {
+        display: block;
+    }
+    
+    .menu-icono {
+        display: none;
     }
 
     .logo {
