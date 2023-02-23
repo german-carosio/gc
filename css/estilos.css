@@ -108,7 +108,7 @@ a,li {
     padding: 20px 0;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     gap: 20px;
 }
@@ -260,7 +260,9 @@ a,li {
     color: var(--color1);
 }
 
-
+.contacto .section-contenedor {
+    justify-content: center;
+}
 
 .contacto form {
     display: flex;
@@ -424,6 +426,10 @@ a,li {
 
     /*service*/
 
+    .about .section-contenedor {
+        justify-content: space-between;
+    }
+
     .about article {
         width: 40vw;
         height: 40vh;
@@ -438,7 +444,7 @@ a,li {
     /*portfolio*/
 
     .portfolio .section-contenedor {
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .portfolio article {
