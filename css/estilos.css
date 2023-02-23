@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 :root {
     /*Colores*/
@@ -57,7 +58,6 @@ a,li {
     left: 0;
     z-index: 100;
     background-color: var(--color2);
-    border: solid 1px blue;
 }
 
 .logo {
@@ -90,12 +90,12 @@ a,li {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .about, .service, .portfolio, .contacto {
     padding: 20px 20px;
     margin-bottom: 5px;
-    border: 2px solid yellow;
 }
 
 .about h2, .service h2, .portfolio h2, .contacto h2 {
@@ -108,9 +108,9 @@ a,li {
     padding: 20px 0;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 20px;
-    border: solid red 1px;
 }
 
 .section-contenedor article h3 {
@@ -122,7 +122,6 @@ a,li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: solid violet 1px;
 }
 
 /*MAIN - Portada*/
