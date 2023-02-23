@@ -108,7 +108,6 @@ a,li {
     padding: 20px 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-direction: column;
     gap: 20px;
 }
@@ -417,7 +416,6 @@ a,li {
        
     }
 
-    
     /*portada*/
 
     .logo2 {
@@ -438,7 +436,7 @@ a,li {
     /*service*/
     .service article {
         width: 30%;
-        height: 25vh;
+        height: 20vh;
     }
 
     /*portfolio*/
@@ -480,6 +478,9 @@ a,li {
 
     /*about*/
     
+    .about-habilidades_iconos div i {
+        font-size: 3em;
+    }
 
     /*service*/
     .service article {
@@ -509,8 +510,18 @@ a,li {
        
     }
 
+
     .logo2 {
         width: 25%;
+    }
+
+    .about article {
+        width: 30vw;
+        height: 30vh;
+    }
+
+    .service article {
+        height: 25vh;
     }
 
     /*MAIN - contacto*/
