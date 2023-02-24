@@ -101,6 +101,7 @@ a,li {
     align-items: center;
     height: 100vh;
     font-family: 'Roboto Mono', monospace;
+    position: relative;
 }
 
 .about, .service, .portfolio, .contacto {
@@ -140,18 +141,23 @@ a,li {
     width: 70%; 
 }
 
+.portada .arrow-down {
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    bottom: 50px;
+    
+}
+
 .portada i {
     color: var(--color1);
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 /*MAIN - About*/
 
 .about article {
-    height: 50vh;
+    height: 40vh;
 }
 
 /*MAIN - About - presentacion*/
@@ -353,6 +359,14 @@ a,li {
     gap: 5px;
 }
 
+.whatsapp {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: var(--color2);
+    
+}
+
 /*MEDIAS*/
 
 @media (min-width: 480px){}
@@ -396,7 +410,7 @@ a,li {
     /*MAIN - about*/
 
     .about article {
-        height: 25vh;
+        height: 35vh;
     }
     
 
