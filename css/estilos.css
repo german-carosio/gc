@@ -102,7 +102,6 @@ a,li {
     height: 100vh;
     font-family: 'Roboto Mono', monospace;
     position: relative;
-    background-color: grey;
 }
 
 .about, .service, .portfolio, .contacto {
@@ -146,7 +145,7 @@ a,li {
     width: max-content;
     height: max-content;
     position: absolute;
-    bottom: 50px; 
+    bottom: 80px; 
 }
 
 .portada i {
