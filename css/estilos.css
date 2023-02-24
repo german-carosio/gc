@@ -534,22 +534,24 @@ a,li {
     }
     
 }
-@media (min-width: 1680px){
+@media (min-width: 1600px){
 
     /*generales*/
     
     .about, .service, .portfolio, .contacto {
-        padding: 20px 150px;
-       
+        padding: 20px 350px;
     }
 
+    .section-contenedor {
+        align-items: center;
+    }
 
     .logo2 {
         width: 25%;
     }
 
     .about article {
-        width: 30vw;
+        width: 25vw;
         height: 30vh;
     }
 
