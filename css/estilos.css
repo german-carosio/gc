@@ -116,7 +116,7 @@ a,li {
 }
 
 .section-contenedor {
-    padding: 20px 0;
+    padding: 30px 0 0 0;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -131,7 +131,6 @@ a,li {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 /*MAIN - Portada*/
@@ -389,6 +388,7 @@ a,li {
     .section-contenedor {
         flex-direction: row;
         flex-wrap: wrap;
+        padding: 40px 0 0 0;
     }
 
     /*HEADER*/
@@ -397,14 +397,7 @@ a,li {
         padding: 0 30px;
     }
 
-    .nav {
-        display: block;
-    }
-    
-    .menu-icono {
-        display: none;
-    }
-
+ 
     .logo {
         height: 35px;
     }
@@ -418,7 +411,7 @@ a,li {
     /*MAIN - about*/
 
     .about article {
-        height: 35vh;
+        height: 30vh;
     }
     
 
@@ -477,7 +470,7 @@ a,li {
     /*service*/
     .service article {
         width: 30%;
-        height: 20vh;
+        height: 25vh;
     }
 
     /*portfolio*/
@@ -523,11 +516,14 @@ a,li {
         font-size: 3em;
     }
     
+    .about article {
+        height: 45vh;
+    }
 
     /*service*/
     .service article {
         width: 18%;
-        height: 30vh;
+        height: 40vh;
     }
 
     /*portfolio*/
