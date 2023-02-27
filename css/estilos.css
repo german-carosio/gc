@@ -154,10 +154,6 @@ a,li {
 
 /*MAIN - About*/
 
-.about article {
-    height: 40vh;
-}
-
 /*MAIN - About - presentacion*/
 
 .about-presentacion .descargar-cv {
@@ -217,9 +213,6 @@ a,li {
 
 /*MAIN - Service*/
 
-.service article {
-    height: 25vh;
-}
 
 .service-contenido i {
     font-size: 1.5em;
@@ -409,12 +402,8 @@ a,li {
     }
 
     /*MAIN - about*/
-
-    .about article {
-        height: 30vh;
-    }
     
-
+    
     /*MAIN - service*/
     
     .service article {
@@ -456,7 +445,7 @@ a,li {
         width: 40%;
     }
 
-    /*service*/
+    /*about*/
 
     .about .section-contenedor {
         justify-content: space-between;
@@ -464,10 +453,10 @@ a,li {
 
     .about article {
         width: 40vw;
-        height: 40vh;
     }
     
     /*service*/
+
     .service article {
         width: 30%;
         height: 25vh;
@@ -516,14 +505,12 @@ a,li {
         font-size: 3em;
     }
     
-    .about article {
-        height: 45vh;
-    }
+   
 
     /*service*/
     .service article {
         width: 18%;
-        height: 40vh;
+        height: 37vh;
     }
 
     /*portfolio*/
@@ -557,12 +544,15 @@ a,li {
 
     .about article {
         width: 25vw;
-        height: 30vh;
     }
 
+    /*service*/
     .service article {
+
+        width: 18%;
         height: 25vh;
     }
+
 
     /*MAIN - contacto*/
 
