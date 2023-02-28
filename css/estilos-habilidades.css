@@ -1,0 +1,16 @@
+
+
+.volver {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.main-habilidades {
+    margin-top: 80px;
+    height: 100vh;
+    padding: 20px 20px;
+}
+
